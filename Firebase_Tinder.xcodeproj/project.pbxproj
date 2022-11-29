@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D321618292A55F5005E56FE /* UserOrofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D321617292A55F5005E56FE /* UserOrofile.swift */; };
+		5D32161A292A8D65005E56FE /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D321619292A8D65005E56FE /* ChatVC.swift */; };
+		5D32161C292A9328005E56FE /* ChatTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D32161B292A9328005E56FE /* ChatTVC.swift */; };
 		5D3925D229254AA2006AD756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3925D129254AA2006AD756 /* AppDelegate.swift */; };
 		5D3925D429254AA2006AD756 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3925D329254AA2006AD756 /* SceneDelegate.swift */; };
 		5D3925D629254AA2006AD756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3925D529254AA2006AD756 /* ViewController.swift */; };
 		5D3925D929254AA2006AD756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3925D729254AA2006AD756 /* Main.storyboard */; };
 		5D3925DB29254AA4006AD756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3925DA29254AA4006AD756 /* Assets.xcassets */; };
 		5D3925DE29254AA4006AD756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3925DC29254AA4006AD756 /* LaunchScreen.storyboard */; };
+		5D3925E629254BB3006AD756 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D3925E529254BB3006AD756 /* GoogleService-Info.plist */; };
+		5D3925EF29254E34006AD756 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3925EE29254E34006AD756 /* SignUpVC.swift */; };
+		5D3925F1292555FD006AD756 /* MoveToTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3925F0292555FD006AD756 /* MoveToTabVC.swift */; };
+		DE4C94DD62A99057E1C5A50E /* Pods_Firebase_Tinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D564494FDA2F5EFBD1E6F7 /* Pods_Firebase_Tinder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43D564494FDA2F5EFBD1E6F7 /* Pods_Firebase_Tinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Tinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D321617292A55F5005E56FE /* UserOrofile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOrofile.swift; sourceTree = "<group>"; };
+		5D321619292A8D65005E56FE /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		5D32161B292A9328005E56FE /* ChatTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTVC.swift; sourceTree = "<group>"; };
 		5D3925CE29254AA2006AD756 /* Firebase_Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firebase_Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3925D129254AA2006AD756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D3925D329254AA2006AD756 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,11 @@
 		5D3925DA29254AA4006AD756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D3925DD29254AA4006AD756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D3925DF29254AA4006AD756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D3925E529254BB3006AD756 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5D3925EE29254E34006AD756 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		5D3925F0292555FD006AD756 /* MoveToTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveToTabVC.swift; sourceTree = "<group>"; };
+		636403014B79861CA69D1F0E /* Pods-Firebase_Tinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase_Tinder.debug.xcconfig"; path = "Target Support Files/Pods-Firebase_Tinder/Pods-Firebase_Tinder.debug.xcconfig"; sourceTree = "<group>"; };
+		BF89314F510F9F51AEF79CFD /* Pods-Firebase_Tinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase_Tinder.release.xcconfig"; path = "Target Support Files/Pods-Firebase_Tinder/Pods-Firebase_Tinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE4C94DD62A99057E1C5A50E /* Pods_Firebase_Tinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		137FBB6EDE59A28F49841C51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43D564494FDA2F5EFBD1E6F7 /* Pods_Firebase_Tinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		599F3E1B5348CC256A4447F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				636403014B79861CA69D1F0E /* Pods-Firebase_Tinder.debug.xcconfig */,
+				BF89314F510F9F51AEF79CFD /* Pods-Firebase_Tinder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5D3925C529254AA2006AD756 = {
 			isa = PBXGroup;
 			children = (
 				5D3925D029254AA2006AD756 /* Firebase_Tinder */,
 				5D3925CF29254AA2006AD756 /* Products */,
+				599F3E1B5348CC256A4447F9 /* Pods */,
+				137FBB6EDE59A28F49841C51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,69 @@
 		5D3925D029254AA2006AD756 /* Firebase_Tinder */ = {
 			isa = PBXGroup;
 			children = (
-				5D3925D129254AA2006AD756 /* AppDelegate.swift */,
-				5D3925D329254AA2006AD756 /* SceneDelegate.swift */,
-				5D3925D529254AA2006AD756 /* ViewController.swift */,
-				5D3925D729254AA2006AD756 /* Main.storyboard */,
-				5D3925DA29254AA4006AD756 /* Assets.xcassets */,
-				5D3925DC29254AA4006AD756 /* LaunchScreen.storyboard */,
+				5D3925EC29254DEF006AD756 /* SupportingFiles */,
+				5D3925EB29254DD9006AD756 /* Model_view */,
+				5D3925EA29254DD2006AD756 /* Controller */,
+				5D3925E929254DCC006AD756 /* View */,
+				5D3925E829254DC5006AD756 /* Model */,
+				5D3925E529254BB3006AD756 /* GoogleService-Info.plist */,
 				5D3925DF29254AA4006AD756 /* Info.plist */,
 			);
 			path = Firebase_Tinder;
+			sourceTree = "<group>";
+		};
+		5D3925E829254DC5006AD756 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D321617292A55F5005E56FE /* UserOrofile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D3925E929254DCC006AD756 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D3925ED29254E02006AD756 /* Storyboard */,
+				5D32161B292A9328005E56FE /* ChatTVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D3925EA29254DD2006AD756 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5D3925D529254AA2006AD756 /* ViewController.swift */,
+				5D3925EE29254E34006AD756 /* SignUpVC.swift */,
+				5D3925F0292555FD006AD756 /* MoveToTabVC.swift */,
+				5D321619292A8D65005E56FE /* ChatVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5D3925EB29254DD9006AD756 /* Model_view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model_view;
+			sourceTree = "<group>";
+		};
+		5D3925EC29254DEF006AD756 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5D3925D129254AA2006AD756 /* AppDelegate.swift */,
+				5D3925D329254AA2006AD756 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5D3925ED29254E02006AD756 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5D3925DA29254AA4006AD756 /* Assets.xcassets */,
+				5D3925D729254AA2006AD756 /* Main.storyboard */,
+				5D3925DC29254AA4006AD756 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D3925E229254AA4006AD756 /* Build configuration list for PBXNativeTarget "Firebase_Tinder" */;
 			buildPhases = (
+				3213F325B85C85743D288732 /* [CP] Check Pods Manifest.lock */,
 				5D3925CA29254AA2006AD756 /* Sources */,
 				5D3925CB29254AA2006AD756 /* Frameworks */,
 				5D3925CC29254AA2006AD756 /* Resources */,
+				B687173508B4EF7BF04299BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +220,67 @@
 				5D3925DE29254AA4006AD756 /* LaunchScreen.storyboard in Resources */,
 				5D3925DB29254AA4006AD756 /* Assets.xcassets in Resources */,
 				5D3925D929254AA2006AD756 /* Main.storyboard in Resources */,
+				5D3925E629254BB3006AD756 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3213F325B85C85743D288732 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase_Tinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B687173508B4EF7BF04299BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase_Tinder/Pods-Firebase_Tinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase_Tinder/Pods-Firebase_Tinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase_Tinder/Pods-Firebase_Tinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5D3925CA29254AA2006AD756 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D3925EF29254E34006AD756 /* SignUpVC.swift in Sources */,
+				5D32161A292A8D65005E56FE /* ChatVC.swift in Sources */,
 				5D3925D629254AA2006AD756 /* ViewController.swift in Sources */,
 				5D3925D229254AA2006AD756 /* AppDelegate.swift in Sources */,
 				5D3925D429254AA2006AD756 /* SceneDelegate.swift in Sources */,
+				5D32161C292A9328005E56FE /* ChatTVC.swift in Sources */,
+				5D3925F1292555FD006AD756 /* MoveToTabVC.swift in Sources */,
+				5D321618292A55F5005E56FE /* UserOrofile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +422,7 @@
 		};
 		5D3925E329254AA4006AD756 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 636403014B79861CA69D1F0E /* Pods-Firebase_Tinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +451,7 @@
 		};
 		5D3925E429254AA4006AD756 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF89314F510F9F51AEF79CFD /* Pods-Firebase_Tinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
